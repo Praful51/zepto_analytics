@@ -144,7 +144,7 @@ Converted price values from paise to rupees for better analysis.
 
 #8 Calculate out-of-stock percentage by category.
 
-![outofstock](image/outofstock_%.png)
+![outofstock_%](image/outofstock_%.png)
 
 #9 Which categories are suffering from poor product availability
 
