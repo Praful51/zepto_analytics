@@ -118,4 +118,34 @@ Converted price values from paise to rupees for better analysis.
 ![highprice_outofstock](image/highprice_outofstock.png)
 
 
+#2 Calculate estimated revenue for each category
 
+![rev_by_cat](image/rev_by_ctgry.png)
+
+#3 Identify the top 5 categories offering the highest average discount percentage
+
+![disc_by_cat](image/disc_by_ctgry.png)
+
+#4 Find the price per gram for products above 100g and sort by best value
+
+![disc_by_cat](image/disc_by_ctgry.png)
+
+#5 What is the total inventory weight per category
+
+![high_inv_wt](image/high_inv_wt.png)
+
+#6 Find the top 10 products contributing the most to total revenue.
+
+![top10prod_byrev](image/top10prod_byrev.png)
+
+#7 Find products where discount percentage is high but available quantity is also high.
+
+![highdisc_highquant](image/highdisc_highquant.png)
+
+#8 Calculate out-of-stock percentage by category.
+
+![outofstock](image/outofstock_%.png)
+
+#9 Which categories are suffering from poor product availability
+
+![lowstock](image/low_stock.png)
