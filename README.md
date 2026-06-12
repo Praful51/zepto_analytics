@@ -115,5 +115,7 @@ Converted price values from paise to rupees for better analysis.
 
 #1 What are the products with high mrp but out of stock
 
-![highval_nostock](image/high_outofsstock.png)
+![highprice_outofstock](image/highprice_outofstock.png)
+
+
 
