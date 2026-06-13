@@ -113,39 +113,60 @@ Converted price values from paise to rupees for better analysis.
 
 # 3. SQL Analysis & Business Questions
 
-#1 What are the products with high mrp but out of stock
+# 1. What are the products with high mrp but out of stock
 
 ![highprice_outofstock](image/highprice_outofstock.png)
 
+Insight: There are high value products which contribute higher value per unit but due to being out of stock they are leading to potential revenue loss
 
-#2 Calculate estimated revenue for each category
+Recommendation: The inventory team must monitor availability of these premium products and prioritize restocking so they can prevent this revenue loss due to unavailability of products.
+
+# 2. Calculate estimated revenue for each category
 
 ![rev_by_cat](image/rev_by_ctgry.png)
 
-#3 Identify the top 5 categories offering the highest average discount percentage
+Insight: Categories like Packaged Food, Ice Cream & Desserts, Chocolates & Candies, Cooking Essentials are generating higher revenue across the categories
+
+Recommendation: Company has to look after maintaining their availability and also optimise their inventory so they consistently contribute to revenue growth.
+
+# 3. Identify the top 5 categories offering the highest average discount percentage
 
 ![disc_by_cat](image/disc_by_ctgry.png)
 
-#4 Find the price per gram for products above 100g and sort by best value
+Insight: Categories like Fruits & Vegetables and Meats, Fish & Eggs are running on higher discounts than other other categories, therefore operating on aggressive pricing strategies
 
-![disc_by_cat](image/disc_by_ctgry.png)
+Recommendation: These categories which are using higher discounts than average their profit margins must be monitored and balanced to ensure that though discount brings sales they must not negatively impact our profit margins.
 
-#5 What is the total inventory weight per category
+# 4. What is the total inventory weight per category
 
 ![high_inv_wt](image/high_inv_wt.png)
 
-#6 Find the top 10 products contributing the most to total revenue.
+Insight: Categories like Cooking Essentials, Munchies are the categories with higher inventory weight representing greater storage allocation
+
+Recommendation: The team must do effective inventory planning to avoid overstocking and also run operations which improve storage efficiency.
+
+# 5. Find the top 10 products contributing the most to total revenue.
 
 ![top10prod_byrev](image/top10prod_byrev.png)
 
-#7 Find products where discount percentage is high but available quantity is also high.
+Insights: These are the top 10 products contributing the most to the total revenue which makes them valuable products for the company
+
+Recommendation: These top-performing products can be used as anchor products in marketing campaigns and advertising strategies to increase customer engagement and drive additional sales.
+
+# 6. Find products where discount percentage is high but available quantity is also high.
 
 ![highdisc_highquant](image/highdisc_highquant.png)
 
-#8 Calculate out-of-stock percentage by category.
+Insight: These are the products on which higher discounts are been provided still they are maintaining higher availability and inventory
 
-![outofstock_%](image/outofstock.png)
+Recommendation: Company should evaluate the situation whether discounts are driving higher sales so is the inventory being maintained properly or though after higher discounts sales are are not taking place which is ultimately leading to availability as the stock is not been going out and unutilised. 
 
-#9 Which categories are suffering from poor product availability
+# 7. Which categories are suffering from poor product availability
 
 ![lowstock](image/low_stock.png)
+
+Insight: Categories like Biscuits (28.57%), Dairy-Bread & Batter(21.71%), Beverages(21.71%) are facing product unavailability with them and having higher out of stock products with them
+
+Recommendation: The company should focus on keeping these categories consistently available by improving stock planning and restocking products on time. This will help reduce product unavailability, avoid losing potential sales, and provide a better customer experience.
+
+
