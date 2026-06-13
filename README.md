@@ -167,4 +167,14 @@ Insight: Categories like Biscuits (28.57%), Dairy-Bread & Batter(21.71%), Bevera
 
 Recommendation: The company should focus on keeping these categories consistently available by improving stock planning and restocking products on time. This will help reduce product unavailability, avoid losing potential sales, and provide a better customer experience.
 
+## Conclusion
 
+This project demonstrates how SQL can be used to analyze e-commerce inventory and pricing data to generate business insights.
+
+The analysis helped identify:
+- Revenue-driving categories and products
+- Potential revenue loss from stockouts
+- Pricing and discount optimization opportunities
+- Inventory allocation challenges
+
+These insights can help businesses make data-driven decisions to improve operational efficiency and revenue performance.
