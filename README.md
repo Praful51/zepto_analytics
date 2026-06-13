@@ -1,4 +1,3 @@
-# zepto_analytics
 
 # Zepto Inventory & Sales Analysis using SQL
 
@@ -35,7 +34,7 @@ This analysis aims to answer important business questions such as:
 
 ---
 
-# Dataset Information
+## Dataset Information
 
 The dataset contains product-level information including:
 
@@ -53,7 +52,7 @@ The dataset contains product-level information including:
 
 ---
 
-# Tools & Technologies Used
+## Tools & Technologies Used
 
 - MySQL
 - SQL
@@ -63,7 +62,7 @@ The dataset contains product-level information including:
 
 ---
 
-# Project Workflow
+## Project Workflow
 
 ## 1. Data Exploration
 
@@ -83,7 +82,7 @@ Queries performed:
 
 ---
 
-# 2. Data Cleaning
+## 2. Data Cleaning
 
 ### Handling Missing Values
 
@@ -111,9 +110,9 @@ Converted price values from paise to rupees for better analysis.
 
 ---
 
-# 3. SQL Analysis & Business Questions
+## 3. SQL Analysis & Business Questions
 
-# 1. What are the products with high mrp but out of stock
+### 1. What are the products with high mrp but out of stock
 
 ![highprice_outofstock](image/highprice_outofstock.png)
 
@@ -121,7 +120,7 @@ Insight: There are high value products which contribute higher value per unit bu
 
 Recommendation: The inventory team must monitor availability of these premium products and prioritize restocking so they can prevent this revenue loss due to unavailability of products.
 
-# 2. Calculate estimated revenue for each category
+### 2. Calculate estimated revenue for each category
 
 ![rev_by_cat](image/rev_by_ctgry.png)
 
@@ -129,7 +128,7 @@ Insight: Categories like Packaged Food, Ice Cream & Desserts, Chocolates & Candi
 
 Recommendation: Company has to look after maintaining their availability and also optimise their inventory so they consistently contribute to revenue growth.
 
-# 3. Identify the top 5 categories offering the highest average discount percentage
+### 3. Identify the top 5 categories offering the highest average discount percentage
 
 ![disc_by_cat](image/disc_by_ctgry.png)
 
@@ -137,7 +136,7 @@ Insight: Categories like Fruits & Vegetables and Meats, Fish & Eggs are running 
 
 Recommendation: These categories which are using higher discounts than average their profit margins must be monitored and balanced to ensure that though discount brings sales they must not negatively impact our profit margins.
 
-# 4. What is the total inventory weight per category
+### 4. What is the total inventory weight per category
 
 ![high_inv_wt](image/high_inv_wt.png)
 
@@ -145,7 +144,7 @@ Insight: Categories like Cooking Essentials, Munchies are the categories with hi
 
 Recommendation: The team must do effective inventory planning to avoid overstocking and also run operations which improve storage efficiency.
 
-# 5. Find the top 10 products contributing the most to total revenue.
+### 5. Find the top 10 products contributing the most to total revenue.
 
 ![top10prod_byrev](image/top10prod_byrev.png)
 
@@ -153,7 +152,7 @@ Insights: These are the top 10 products contributing the most to the total reven
 
 Recommendation: These top-performing products can be used as anchor products in marketing campaigns and advertising strategies to increase customer engagement and drive additional sales.
 
-# 6. Find products where discount percentage is high but available quantity is also high.
+### 6. Find products where discount percentage is high but available quantity is also high.
 
 ![highdisc_highquant](image/highdisc_highquant.png)
 
@@ -161,7 +160,7 @@ Insight: These are the products on which higher discounts are been provided stil
 
 Recommendation: Company should evaluate the situation whether discounts are driving higher sales so is the inventory being maintained properly or though after higher discounts sales are are not taking place which is ultimately leading to availability as the stock is not been going out and unutilised. 
 
-# 7. Which categories are suffering from poor product availability
+### 7. Which categories are suffering from poor product availability
 
 ![lowstock](image/low_stock.png)
 
