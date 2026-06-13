@@ -146,15 +146,9 @@ select category,name,discountpercent,availablequantity
 from  highdisc_highquant_category 
 where disc_rnk=1 and quan_rnk=1;
 
-#9 Calculate out-of-stock percentage by category.
 
-select category, sum(case when outofstock='TRUE' then 1 else 0 end) as total_outofstock,
-round(sum(case when outofstock='TRUE' then 1 else 0 end) * 100.0/ count(*),2) as outofstock_percent
-FROM zepto
-group by category
-order by outofstock_percent desc;
 
-#10 Which categories are suffering from poor product availability
+#9 Which categories are suffering from poor product availability
 
 select * from zepto;
 
