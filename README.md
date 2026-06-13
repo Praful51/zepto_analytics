@@ -28,9 +28,9 @@ This analysis aims to answer important business questions such as:
 
 - Which products are unavailable despite having high value?
 - Which categories contribute most to revenue?
-- Which categories have high inventory but low revenue contribution?
+- Identifying the top categories offering higher average discounts?  
 - Where are stock availability issues occurring?
-- Which products have pricing opportunities?
+- Finding the top 10 products contributing the most to total revenue?
 
 ---
 
@@ -72,19 +72,14 @@ Performed initial exploration to understand:
 - Column structure
 - Data types
 - Sample records
-
-Queries performed:
-
-- COUNT()
-- DESCRIBE
-- SELECT
-
-
+- 
 ---
 
 ## 2. Data Cleaning
 
 ### Handling Missing Values
+
+![data clean](image/missing_values.png)
 
 Checked for missing values across important columns:
 
@@ -98,6 +93,8 @@ Checked for missing values across important columns:
 
 ### Removing Invalid Records
 
+![data clean](image/invalid_rows.png)
+
 Identified and removed products where:
 
 - MRP = 0
@@ -105,6 +102,8 @@ Identified and removed products where:
 
 
 ### Currency Conversion
+
+![data clean](image/currency_conversion.png)
 
 Converted price values from paise to rupees for better analysis.
 
